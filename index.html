@@ -8,24 +8,30 @@
     <title>Your Wine Racks</title>
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <!-- custom Css  -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <!-- bootstrap css  -->
     <link href="./css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
-    <header>
+<body class="bg-light">
+    <!-- Top Slider here  -->
+    <header class="Slider">
         <div id="carouselExampleCaptions" class="carousel slide">
-
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="./images/10002.jpg" class="d-block w-100" alt="...">
+                    <img src="./images/wine-rack-slider-one.webp" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="./images/10003.jpg" class="d-block w-100" alt="...">
+                    <img src="./images/wine-rack-slider-two.webp" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="./images/10004.jpg" class="d-block w-100" alt="...">
+                    <img src="./images/wine-rack-slider-three.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/wine-rack-slider-four.webp" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/wine-rack-slider-five.webp" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
@@ -40,9 +46,76 @@
             </button>
         </div>
 
-
+        <!-- Main Menu Start here  -->
+        <div class="main__menu ">
+            <nav class="container justify-content-center navbar navbar-expand-lg">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
+    <!-- Main Design Start Here  -->
+    <main class="container py-5">
+        <!-- main Heading  -->
+        <h1 class="section__heading mb-5">Best selling products</h1>
 
+        <!-- Card Design Start Here  -->
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="./images/simple-product-1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2 class="card-title">Product Name </h2>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            to additional content. This content is a little bit longer.</p>
+                        <a class="btn btn-primary" href="#">shop now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./images/simple-product-2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2 class="card-title">Product Name </h2>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            to additional content. This content is a little bit longer.</p>
+                        <a class="btn btn-primary" href="#">shop now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./images/simple-product-3.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2 class="card-title">Product Name </h2>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                            to additional content. This content is a little bit longer.</p>
+                        <a class="btn btn-primary" href="#">shop now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer design  -->
+    <footer class="py-4">
+        <div class="container d-flex justify-content-center">
+            <span class="footer__info ">
+                © 2023 YOUR DOMAIN NAME, ALL RIGHTS RESERVED
+            </span>
+        </div>
+    </footer>
+
+    <!-- Bootstrap js  -->
     <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 

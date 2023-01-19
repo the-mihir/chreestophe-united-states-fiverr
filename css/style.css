@@ -1,0 +1,51 @@
+/*============Custom google Font============*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Work+Sans:wght@400;500&display=swap');
+
+/*============common Css============*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'roboto' sans-serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+
+.section__heading {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'roboto' sans-serif !important;
+    font-size: 30px;
+}
+
+/*============header Css============*/
+
+.main__menu {
+    background-color: #032830;
+}
+
+nav ul li a {
+    color: #fff !important;
+    font-family: 'Montserrat', sans-serif m !important;
+    font-size: 18px !important;
+    text-transform: uppercase;
+}
+
+/*============Footer============*/
+
+footer {
+    background-color: #212529;
+}
+
+.footer__info {
+    color: rgb(224, 224, 224);
+    font-size: 12px;
+    text-align: center !important;
+}
