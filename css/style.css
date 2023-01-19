@@ -9,7 +9,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'roboto' sans-serif;
+    font-family: 'roboto', sans-serif;
 }
 
 p {
@@ -34,7 +34,7 @@ a {
     text-align: center;
     text-transform: uppercase;
     font-weight: 600;
-    font-family: 'roboto' sans-serif !important;
+    font-family: 'roboto', sans-serif !important;
     font-size: 35px;
 }
 
