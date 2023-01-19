@@ -26,6 +26,10 @@ a {
 
 }
 
+.active {
+    color: antiquewhite;
+}
+
 .section__heading {
     text-align: center;
     text-transform: uppercase;
@@ -37,7 +41,6 @@ a {
 .main__menu {
     background-color: #032830;
 }
-
 
 footer {
     background-color: #093c47;
