@@ -1,1 +1,3 @@
-<h2 class="center"># A Simple Wine Racks Web page</h2>
+# A Simple Wine Racks Web page
+
+<h2 align="center">Wine racks webpage</h2>
